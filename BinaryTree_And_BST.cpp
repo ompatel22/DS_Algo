@@ -14,7 +14,7 @@ class node
 	}
 };
 
-	void insert(node*& root,node* nn)//------------------------>>>>>>>>>>>>>>>-----*&
+	void insert(node*& root,node* nn)
 	{
 		char c;
 		if(root==NULL)
@@ -126,11 +126,11 @@ class node
 			}
 			if(temp->data>key)
 			{
-				temp=temp->left;//TAKE CARE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!(see the value of key)
+				temp=temp->left;
 			}
 			else
 			{
-				temp=temp->right;//TAKE CARE!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+				temp=temp->right;
 			}
 		}
 		return(NULL);
@@ -222,7 +222,7 @@ class node
 	
 int main()
 {
-	node* root=NULL;//NULL KON KARSE BHAI ??
+	node* root=NULL;
 	char ans='y';int val;
 	while(ans=='y')
 	{
