@@ -92,6 +92,10 @@ node* insucc(node* curr)
 
 void inorder(node* root)
 {
+	if(root==NULL)
+	{	
+		return;
+	}
 	node* temp=root;
 	while(temp->leftthread==false)
 	temp=temp->left;
