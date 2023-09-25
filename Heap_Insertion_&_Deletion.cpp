@@ -33,10 +33,6 @@ void MaxHeapify(vector<int>& a,int i)
 void insert(vector<int>& a,int key)
 {
 	a.push_back(key);
-	if(a.size()==0)
-	{
-		return;
-	}
 	int i=a.size()-1;
 	while(i>=0)
 	{
