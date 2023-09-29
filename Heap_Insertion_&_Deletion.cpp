@@ -34,7 +34,7 @@ void insert(vector<int>& a,int key)
 {
 	a.push_back(key);
 	int i=a.size()-1;
-	while(i>=0)
+	while(i>0)
 	{
 		int parent=((i-1)/2);
 		if(a[parent]<a[i])
